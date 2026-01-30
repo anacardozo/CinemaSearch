@@ -107,3 +107,6 @@ Ano de lançamento
 ## 📄 Licença
 
 Este projeto é de uso livre para fins educacionais.
+
+<img width="1919" height="819" alt="image" src="https://github.com/user-attachments/assets/04cea146-a2de-4af8-8d21-7a30ab587903" />
+
