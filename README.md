@@ -10,6 +10,7 @@ O CinemaSearch é uma aplicação web desenvolvida em JavaScript que permite ao 
 
 O projeto consome dados de uma API externa e exibe os resultados de forma dinâmica na tela.
 
+---
 ## 🚀 Funcionalidades
 
 Busca de filmes pelo nome
