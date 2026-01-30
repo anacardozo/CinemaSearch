@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CinemaSearch</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <ion-icon name="film-outline"></ion-icon>
+            <h1>Cinema<span>Search</span></h1>
+        </div>
+
+        <p class="title-secondary">Encontre informações sobre seus filmes favoritos de forma rápida e simples.</p>
+
+        <form action="">
+            <div class="search-box">
+                <div class="searchs">
+                    <ion-icon name="search-outline"></ion-icon> 
+                    <input type="search" id="busca" placeholder="Buscar Filme...">
+                </div>
+                <button type="submit" class="buscar">Buscar</button>
+            </div>
+        </form>
+
+        <p class="alert">Digite o nome de um filme...</p>
+
+    </header>
+
+
+    <main>
+
+        <div class="cont-inicial">
+            <div class="logo">
+                <ion-icon name="film-outline"></ion-icon>
+            </div>
+
+            <h2>Descubra novos filmes</h2>
+
+            <p class="texto-principal">
+                Digite o nome de um filme na barra de busca acima para começar a explorar.
+            </p>
+        </div>           
+
+        <div class="cont-result hidden">
+
+            <p class="num-result"></p>
+
+            <div class="filmes">
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="title-footer">Projeto de Estudos • Busca de Filmes</p>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+<script src="script.js"></script>
+</html>
